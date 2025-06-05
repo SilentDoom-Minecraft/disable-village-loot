@@ -1,0 +1,17 @@
+{
+    "pack": {
+        "description": "Disable all village chest loot - Created by SilentDoom",
+        "pack_format": 71,
+        "supported_formats": {
+          "min_inclusive": 10
+        }
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "loot_table/chests/village/.*"
+            }
+        ]
+    }
+}
